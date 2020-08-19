@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "24599980249",
+    "firebase_url": "https://projetoacs-ad799.firebaseio.com",
+    "project_id": "projetoacs-ad799",
+    "storage_bucket": "projetoacs-ad799.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24599980249:android:8c81c10292ef6a05",
+        "android_client_info": {
+          "package_name": "com.israelhack.projetoacspsf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24599980249-lsspqmnebdvb74ueqot1d3vtfjv2cuq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.israelhack.projetoacspsf",
+            "certificate_hash": "72f996883aba9fcf3c741c0588a54171129590b0"
+          }
+        },
+        {
+          "client_id": "24599980249-9l4a0tpnr4nm0rqm02em0fgmqerb5q2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqrWRXhAGGYW6KSOjW-y76tj2cVquj98k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24599980249-9l4a0tpnr4nm0rqm02em0fgmqerb5q2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

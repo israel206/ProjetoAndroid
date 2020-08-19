@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.HistoricoGeral">
+
+    //CADASTRO INDIVIDUAL
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitulo"
+        android:text="CADASTRO INDIVIDUAL"
+        android:gravity="center"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btnAddIndividuo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar no Cadastro Individuais"/>
+
+    <Button
+        android:id="@+id/btnListarIndividual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de Cadastro Individuais"/>
+
+    //CADASTRO DOMICILIAR
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitulo1"
+        android:text="CADASTRO DOMICILIAR"
+        android:gravity="center"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btnAddCadDomiciliar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar no Cadastro Domiciliar"/>
+
+    <Button
+        android:id="@+id/btnListarDomiciliar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de Cadastro Domiciliar"/>
+
+    //Visita
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitulo3"
+        android:text="VISITA DOMICILIAR"
+        android:gravity="center"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btnAddVisitaDomiciliar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adionar Visita Domiciliar"/>
+
+    <Button
+        android:id="@+id/btnListarVisitaDomiciliar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de Visitar Domicilares"/>
+
+</LinearLayout>

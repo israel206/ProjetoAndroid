@@ -1,0 +1,400 @@
+<resources>
+    <string name="app_name">ProjetoAcsPSF</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Acessar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."</string>
+    <string name="title_activity_main">Menu Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="sair">Sair</string>
+
+
+    <!-- Strings BOTOES -->
+
+    <string name="pesquisa">Pesquisar</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="salvar">Salvar</string>
+    <string name="deleta">Limpar campos</string>
+
+    <!-- Strings BOTOES -->
+
+
+    <!-- Strings CADASTRO INDIVIDUAL -->
+    <string name="cnsCidadao">CNS do Cidadão</string>
+
+    <string name="cidadaoResponsavelFamiliar">Cidadão é o Responsável Familiar </string>
+    <string-array name="cidadaoResponsavelFamiliar">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="cnsResponsavelFamiliar"> CNS do Cidadão Responsável Familiar</string>
+    <string name="nameCompleto">Nome Completo:</string>
+    <string name="nomeSocial">Nome Social</string>
+    <string name="dataDeNascimento">Data de Nascimento</string>
+
+    <string name="racaCor">Raça ou Cor</string>
+    <string-array name="racaCor">
+        <item>Branca</item>
+        <item>Preta</item>
+        <item>Parda</item>
+        <item>Amarela</item>
+        <item>Indígena</item>
+    </string-array>
+
+    <string name="sexo">Sexo</string>
+    <string-array name="sexo">
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+
+
+    <string name="dadosPis">NIS(PIS/PASEP):</string>
+    <string name="nomeMae">Nome completo da Mãe:</string>
+    <string name="nomePai">Nome completo do Pai:</string>
+
+    <string name="nacionalidade">Nacionalidade:</string>
+    <string-array name="nacionalidade">
+        <item>Brasileiro</item>
+        <item>Estrageiro</item>
+    </string-array>
+
+
+    <string name="paizNascimento">Pais de Nascimento:</string>
+    <string name="dataDeNaturalizacao">Data de Naturalização:</string>
+    <string name="portariaDeNaturalizacao">Portaria de Naturalização:</string>
+    <string name="municipioNascimento">Municipio de naturalização:</string>
+    <string name="dataEntradaBrasil">Data de Entrada no Brasil:</string>
+    <string name="telCelular">Telefone:</string>
+    <string name="email">E-Mail:</string>
+
+    <!--- INFORMAÇOES SOCIODEMOGRAFICAS -->
+
+    <string name="relacaoParentesco">Relação de Parentesco:</string>
+    <string-array name="relacaoParentesco">
+        <item>Cônjuge/Companheiro(a)</item>
+        <item>Filho(a)</item>
+        <item>Enteado(a)</item>
+        <item>Neto/Bisneto(a)</item>
+        <item>Pai/Mãe</item>
+        <item>Sogro(a)</item>
+        <item>Irmão/Irmâ</item>
+        <item>Genro/Nora</item>
+        <item>Outro Parente</item>
+        <item>Não Parente</item>
+    </string-array>
+
+    <string name="frequentouEscola">Frequentou Escola:</string>
+    <string-array name="frequentouEscola">
+        <item>Creche</item>
+        <item>Pre-Escola</item>
+        <item>Ensino Fundamental Incompleto</item>
+        <item>Ensinno Fundamental Completo</item>
+        <item>Ensino EJA</item>
+        <item>Ensino Médio Incompleto</item>
+        <item>Ensino Médio Completo</item>
+        <item>Superior,Especialização,Mestrado,Doutorado</item>
+        <item>Alfabetização de Adultos</item>
+        <item>Não Parente</item>
+    </string-array>
+
+    <string name="situacaoMercado">Situação no Mercado de Trabalho:</string>
+    <string-array name="situacaoMercado">
+        <item>Empregador</item>
+        <item>Assalariado com Carteira de Trabalho</item>
+        <item>Assalariado sem Carteira de Trabalho</item>
+        <item>Autônomo com Previdência</item>
+        <item>Autônomo sem PrevidênciaEJA</item>
+        <item>Aposentado/Pensionista</item>
+        <item>Desempregado</item>
+        <item>Servidor Púbrico/Militar</item>
+        <item>Outro</item>
+    </string-array>
+
+    <string name="deficiencia">Tem Alguma Deficiencia</string>
+    <string-array name="deficiencia">
+        <item>Auditiva</item>
+        <item>Intelectual/Cognitiva</item>
+        <item>Visual</item>
+        <item>Físico</item>
+        <item>Outro</item>
+    </string-array>
+
+    <!--- QUESTIONARIOS DE SAUDES -->
+
+    <string name="gestante">Gestante:</string>
+    <string-array name="gestante">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="peso">Sobre Peso:</string>
+    <string-array name="peso">
+        <item>Abaixo</item>
+        <item>Peso Adequado</item>
+        <item>Acima do Peso</item>
+    </string-array>
+
+    <string name="respiratorioPulmao">É Respiratória/ no Pulmão:</string>
+    <string-array name="respiratorioPulmao">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="fumante">É Fumante:</string>
+    <string-array name="fumante">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="alcool">Fa uso de Álcool:</string>
+    <string-array name="alcool">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="outrasDrogas">Faz uso de outras Drogras:</string>
+    <string-array name="outrasDrogas">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="hipertensao">Tem hipertensão arterial:</string>
+    <string-array name="hipertensao">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="diabete">Tem Diabetes:</string>
+    <string-array name="diabete">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="avcDerrame">Tem AVC/Derrame:</string>
+    <string-array name="avcDerrame">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="infarto">Teve Infarto:</string>
+    <string-array name="infarto">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="cardiaca">Tem doenças Cardiaca/Coração:</string>
+    <string-array name="cardiaca">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="hanseniase">Está com Hanseníase:</string>
+    <string-array name="hanseniase">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="tuberculose">Esta com turbeculose:</string>
+    <string-array name="tuberculose">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="cancer">Tem ou teve câncer:</string>
+    <string-array name="cancer">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="rins">Tem ou teve problemas com Rins:</string>
+    <string-array name="rins">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+
+    <!-- Strings CADASTROS DOMICILIAR -->
+
+    <string name="cep">Cep:</string>
+    <string name="nomeMunicipio">Nome do Municipio:</string>
+    <string name="nomeBairro">Nome do Bairro:</string>
+    <string name="nomeEstado">Nome do Estado</string>
+    <string name="nomeLogradouro">Nome do Logradouro:</string>
+    <string name="numero">Numero:</string>
+    <string name="nomeComplemento">Nome do Complento:</string>
+    <string name="pontoReferencia">Ponto de Referncia:</string>
+    <string name="numeroResidencia">Numero da Residencia</string>
+    <string name="numeroCelular">Numero do Celular</string>
+
+    <!-- Strings condiçoes de moradia -->
+
+    <string name="situacaoMoradia">Situação da Moradia:</string>
+    <string-array name="situacaoMoradia">
+        <item>Próprio</item>
+        <item>Financiado</item>
+        <item>Alugado</item>
+        <item>Arrendado</item>
+        <item>Cedido</item>
+        <item>Ocupado</item>
+        <item>Situaçao de Rua</item>
+        <item>Outro</item>
+    </string-array>
+
+
+    <string name="localizacao">Localização:</string>
+    <string-array name="localizacao">
+        <item>Urbano</item>
+        <item>Rural</item>
+    </string-array>
+
+    <string name="tipoDomicilio">Tipo de Domicilio:</string>
+    <string-array name="tipoDomicilio">
+        <item>Casa</item>
+        <item>Apartamento</item>
+        <item>Cômodo</item>
+        <item>Outro</item>
+    </string-array>
+
+    <string name="tipoAcessoDomicilio">Tipo de Acesso ao Domicilio:</string>
+    <string-array name="tipoAcessoDomicilio">
+        <item>Pavimento</item>
+        <item>Chão Batido</item>
+        <item>Fluvial</item>
+        <item>Outro</item>
+    </string-array>
+
+    <string name="condicaoPosseTerra">Em caso de Área de produção Rural:</string>
+    <string-array name="condicaoPosseiTerra">
+        <item>Proprietário</item>
+        <item>Parceiro(a)Meero(a)</item>
+        <item>Assentado(a)</item>
+        <item>Posseiro</item>
+        <item>Arrendatário(a)</item>
+        <item>Comodatário(a)</item>
+        <item>Beneficiário(a) do Banco da Terra</item>
+        <item>Não se aplica</item>
+    </string-array>
+
+    <string name="materialConstrucao">Material de construção paredes do domicilio:</string>
+    <string-array name="materialCnstrucao">
+        <item>Alvenaria/Tijolos</item>
+        <item>Taipa</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string name="energia">Disponibilidade de Energia Elétrica:</string>
+    <string-array name="energia">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="abastecimentoAgua">Abastecimento de Água:</string>
+    <string-array name="abastecimentoAgua">
+        <item>Rede Encanada até o Domicílio</item>
+        <item>Poço/Nascente no domicílio</item>
+        <item>Cisterna</item>
+        <item>Carro Pipa</item>
+        <item>Outro</item>
+    </string-array>
+
+    <string name="aguaConsumoDomicilio">Água para consumo no domicílio:</string>
+    <string-array name="aguaConsumoDomicilio">
+        <item />
+        <item>Filtrada</item>
+        <item>Fervida</item>
+        <item>Clorada</item>
+        <item>Mineral</item>
+        <item>Sem Tratamento</item>
+    </string-array>
+
+    <string name="escoamentoSanitario">Forma de Escoamneto do Banheiro ou Sanitário:</string>
+    <string-array name="escoamentoSanitario">
+        <item>Rede Coletora de Esgoto ou Pluvial</item>
+        <item>Fossa Séptica </item>
+        <item>Fossa Rudimentar</item>
+        <item>Direto para um Rio, Lago ou Mar</item>
+        <item>Céu Aberto</item>
+        <item>Outra Forma</item>
+    </string-array>
+
+    <string name="destinoLixo">Destino do Lixo:</string>
+    <string-array name="destinoLixo">
+        <item>Coletado</item>
+        <item>Queimado/Enterrado</item>
+        <item>Céu Aberto</item>
+        <item>Outro</item>
+    </string-array>
+
+    <string name="animaisDomicílio">Animais no Domicílio:</string>
+
+
+    <!--Visita Domiciliar-->
+
+    <string name="Turno">Turno:</string>
+    <string-array name="Turno">
+        <item>Amanhã</item>
+        <item>Tarde</item>
+    </string-array>
+
+    <string name="dtAtendimento">Data de Atendimento:</string>
+
+    <string name="motivoVisita">Acompanhamento/Busca Ativa:</string>
+    <string-array name="motivoVisita">
+        <item>Consulta</item>
+        <item>Exame</item>
+        <item>Vacina</item>
+        <item>Gestante</item>
+        <item>Recém-nascido</item>
+        <item>Crianças</item>
+        <item>Pessoa com desnutrição</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string name="tipoMovel">Tipo de Imovel:</string>
+    <string name="numCartaoSus">Cartão do SUS:</string>
+    <string name="dtNascimento">Data de Nascimento:</string>
+
+    <string name="Sexo">Sexo:</string>
+    <string-array name="Sexo">
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+
+    <string name="stVisitaCompartilhada">A visita é compartilha com outro Agente:</string>
+    <string-array name="stVisitaCompartilhada">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="controleVetorial">Controle Ambiente/Vetorial:</string>
+    <string-array name="controleVetorial">
+        <item>Ação educativa</item>
+        <item>Imóvel com foco</item>
+        <item>Tratamento focal</item>
+        <item>Egresso de Internação</item>
+        <item>Convite atividadeColetiva/Campanha de saúde</item>
+        <item>Orientação/Prevenção</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string name="Desfecho">Desfecho:</string>
+    <string-array name="Desfecho">
+        <item>Vista realizada</item>
+        <item>Visita recusada</item>
+        <item>Ausente</item>
+    </string-array>
+
+</resources>
